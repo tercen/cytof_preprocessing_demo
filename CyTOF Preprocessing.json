@@ -1317,7 +1317,7 @@
      "id": "rename_93bec265-3e65-4b49-af6b-e616dc9472e6",
      "relation": {
       "kind": "InMemoryRelation",
-      "id": "44566b32-ce23-4229-aa4b-6a9b5e258445",
+      "id": "3a17aec1-2805-4cd5-abfe-d796d69a6ced",
       "inMemoryTable": {
        "kind": "Table",
        "nRows": 1,
