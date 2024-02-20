@@ -1,0 +1,405 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "a961f87e3e84bc987bb79b4528eedc63d3517eef3c1950fc04c2675f91bec2bc",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "a961f87e3e84bc987bb79b4528eedc63d3517eef3c1950fc04c2675f91bec2bc"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 341172,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "3d7492b9-bdbd-4127-90c5-db33a07448ca",
+   "name": "ds40.umap.1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "8e2feb78-d477-4639-bb11-64b6e19e6c0f",
+   "name": "ds40.umap.2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "fffad4f2-c0a0-4c86-8a4c-eb1198d85e44",
+   "name": ".ci",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/a9/61/a961f87e3e84bc987bb79b4528eedc63d3517eef3c1950fc04c2675f91bec2bc",
+ "relation": {
+  "kind": "Relation",
+  "id": "38bfa46c-7617-4960-b439-869fa45bbb9a"
+ },
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "RenameRelation",
+   "id": "84326ba6-1f3f-45a9-9de3-a1ba21d3973b",
+   "relation": {
+    "kind": "CompositeRelation",
+    "id": "9630e785-2564-4f15-b622-0d42f1d88842",
+    "joinOperators": [
+     {
+      "kind": "JoinOperator",
+      "joinType": "leftOuter",
+      "leftPair": {
+       "kind": "ColumnPair",
+       "lColumns": [
+        ".ri"
+       ],
+       "rColumns": [
+        "4216247106683c303f8c4eafed6fb91e22143c27be2847a47b0fa9e4583318a3._rids"
+       ]
+      },
+      "rightRelation": {
+       "kind": "SimpleRelation",
+       "id": "4216247106683c303f8c4eafed6fb91e22143c27be2847a47b0fa9e4583318a3",
+       "index": 2
+      }
+     }
+    ],
+    "mainRelation": {
+     "kind": "CompositeRelation",
+     "id": "508272a7-45e8-420f-ba48-17afa52ec2c0",
+     "joinOperators": [
+      {
+       "kind": "JoinOperator",
+       "joinType": "leftOuter",
+       "leftPair": {
+        "kind": "ColumnPair",
+        "lColumns": [
+         ".ci"
+        ],
+        "rColumns": [
+         "980130991e1827b06df1041eb6e33b9c0459a4baf71a51a173c7c7d0434c8dc3._rids"
+        ]
+       },
+       "rightRelation": {
+        "kind": "SimpleRelation",
+        "id": "980130991e1827b06df1041eb6e33b9c0459a4baf71a51a173c7c7d0434c8dc3",
+        "index": 1
+       }
+      }
+     ],
+     "mainRelation": {
+      "kind": "SimpleRelation",
+      "id": "6ff92500ae3f049a9081639f0c9b0ad2f14ebdcc050dbc2a376bf8ae330dd497",
+      "index": 0
+     }
+    }
+   },
+   "inNames": [
+    "scale.scaled_value",
+    ".ri",
+    ".ci",
+    "6ff92500ae3f049a9081639f0c9b0ad2f14ebdcc050dbc2a376bf8ae330dd497._rids",
+    "6ff92500ae3f049a9081639f0c9b0ad2f14ebdcc050dbc2a376bf8ae330dd497.tlbId",
+    "norm..filename",
+    "norm..event_id",
+    "980130991e1827b06df1041eb6e33b9c0459a4baf71a51a173c7c7d0434c8dc3._rids",
+    "980130991e1827b06df1041eb6e33b9c0459a4baf71a51a173c7c7d0434c8dc3.tlbId",
+    "norm..variable",
+    "4216247106683c303f8c4eafed6fb91e22143c27be2847a47b0fa9e4583318a3._rids",
+    "4216247106683c303f8c4eafed6fb91e22143c27be2847a47b0fa9e4583318a3.tlbId",
+    "norm..filename",
+    "norm..event_id",
+    "norm..variable"
+   ],
+   "outNames": [
+    "scale.scaled_value",
+    ".ri",
+    ".ci",
+    "6ff92500ae3f049a9081639f0c9b0ad2f14ebdcc050dbc2a376bf8ae330dd497._rids",
+    "6ff92500ae3f049a9081639f0c9b0ad2f14ebdcc050dbc2a376bf8ae330dd497.tlbId",
+    "norm..filename",
+    "norm..event_id",
+    "980130991e1827b06df1041eb6e33b9c0459a4baf71a51a173c7c7d0434c8dc3._rids",
+    "980130991e1827b06df1041eb6e33b9c0459a4baf71a51a173c7c7d0434c8dc3.tlbId",
+    "norm..variable",
+    "4216247106683c303f8c4eafed6fb91e22143c27be2847a47b0fa9e4583318a3._rids",
+    "4216247106683c303f8c4eafed6fb91e22143c27be2847a47b0fa9e4583318a3.tlbId",
+    "scale..filename",
+    "scale..event_id",
+    "scale..variable"
+   ]
+  },
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "scale..filename",
+    "type": "string"
+   },
+   {
+    "kind": "Factor",
+    "name": "scale..event_id",
+    "type": "int32"
+   }
+  ],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "scale..variable",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 3,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "scale.scaled_value",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": [
+    {
+     "kind": "NamedFilter",
+     "logical": "or",
+     "not": false,
+     "filterExprs": [
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "Pd102Di",
+       "factor": {
+        "kind": "Factor",
+        "name": "scale..variable",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "Pd104Di",
+       "factor": {
+        "kind": "Factor",
+        "name": "scale..variable",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "Pd105Di",
+       "factor": {
+        "kind": "Factor",
+        "name": "scale..variable",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "Pd106Di",
+       "factor": {
+        "kind": "Factor",
+        "name": "scale..variable",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "Pd108Di",
+       "factor": {
+        "kind": "Factor",
+        "name": "scale..variable",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "Pd110Di",
+       "factor": {
+        "kind": "Factor",
+        "name": "scale..variable",
+        "type": "string"
+       }
+      }
+     ],
+     "meta": [],
+     "name": "Keep only"
+    }
+   ]
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "ds40",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "UMAP",
+    "version": "1.2.3",
+    "operatorId": "3",
+    "operatorKind": "ROperator",
+    "propertyValues": [
+     {
+      "kind": "PropertyValue",
+      "name": "init",
+      "value": "spectral"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "scale",
+      "value": "none"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "n_neighbors",
+      "value": "15"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "spread",
+      "value": "1"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "min_dist",
+      "value": "0.5"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "pca",
+      "value": "-1"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "prop.train",
+      "value": "1"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "seed",
+      "value": "42"
+     }
+    ],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/umap_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [
+    {
+     "kind": "Pair",
+     "key": "cpu",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "ram",
+     "value": "5000000000"
+    },
+    {
+     "kind": "Pair",
+     "key": "cpu-shares",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "tercen.collect.stats",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "debug",
+     "value": "false"
+    }
+   ],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

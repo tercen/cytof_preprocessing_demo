@@ -1,0 +1,151 @@
+{
+ "kind": "TableSchema",
+ "id": "b71315aa45a95734d5993a537c155dbbaa3ab77067b20c9239938dc1f160a644",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "FlowRepository_FR-FCM-Z4S9_barcodeScheme_v2.csv",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "b71315aa45a95734d5993a537c155dbbaa3ab77067b20c9239938dc1f160a644"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 20,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "8594fb33-6be7-4ccc-aba4-d6cd395136b8",
+   "name": "Population",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "197a7096-0184-4750-9297-6677d7af77d3",
+   "name": "Pd102Di",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "5e436e1d-fc9d-4929-b04e-492b5b2c8e5c",
+   "name": "Pd104Di",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "0ed8095a-8e4f-4de6-9491-68c022eee75d",
+   "name": "Pd105Di",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "f926d1aa-ed5d-4738-be56-c37569f7561a",
+   "name": "Pd106Di",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "bfb361ce-a840-4cc1-babe-83eae18f95b1",
+   "name": "Pd108Di",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "e33b96d4-0a84-48c1-b088-13c8a72a0227",
+   "name": "Pd110Di",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/b7/13/b71315aa45a95734d5993a537c155dbbaa3ab77067b20c9239938dc1f160a644",
+ "relation": {
+  "kind": "Relation",
+  "id": "50107c44-2290-4725-9652-eb605371e4de"
+ }
+}

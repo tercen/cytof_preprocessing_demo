@@ -1,0 +1,42 @@
+{
+ "kind": "FileDocument",
+ "id": "FlowRepository_FR-FCM-Z4S9_files.zip",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "FlowRepository_FR-FCM-Z4S9_files.zip",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "dataUri": "59/09/590967c8-b3c6-418e-a23a-cc65e1c1d952",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 111306795
+}

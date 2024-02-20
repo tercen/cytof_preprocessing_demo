@@ -1,0 +1,91 @@
+{
+ "kind": "TableSchema",
+ "id": "5318286c57bd83c60f123f8621f602a5f159089811e291cc9c7d91b739893706",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "Channel-Descriptions-FlowRepository_FR-FCM-Z4S9_files.zip-02-07-24-09-59-06",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "5318286c57bd83c60f123f8621f602a5f159089811e291cc9c7d91b739893706"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "8",
+ "nRows": 64,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "1783456c-d4b6-4699-bf65-811c431e0934",
+   "name": "channel_name",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "db8255a8-3cb3-4a5c-a985-d6305aca12a5",
+   "name": "channel_description",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "678dbd2a-bd0d-4c4e-b9b0-900c3510177b",
+   "name": "channel_id",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/53/18/5318286c57bd83c60f123f8621f602a5f159089811e291cc9c7d91b739893706",
+ "relation": {
+  "kind": "Relation",
+  "id": "70d04ac1-2b4c-4bdc-8518-98684345d7e5"
+ }
+}
