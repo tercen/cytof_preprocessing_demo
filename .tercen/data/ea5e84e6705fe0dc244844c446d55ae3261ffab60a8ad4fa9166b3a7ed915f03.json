@@ -330,7 +330,7 @@
     "kind": "OperatorRef",
     "name": "Count",
     "version": "0.11.1",
-    "operatorId": "1",
+    "operatorId": "5",
     "operatorKind": "ROperator",
     "propertyValues": [],
     "url": {

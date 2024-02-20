@@ -1,6 +1,6 @@
 {
  "kind": "Workflow",
- "id": "2",
+ "id": "9",
  "isDeleted": false,
  "rev": "",
  "description": "",
@@ -161,7 +161,7 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "34bd1f668997b2706763fe4289d09f98",
+    "taskId": "e53240c9b786166f00c626e28ffc4614",
     "taskState": {
      "kind": "DoneState"
     }
@@ -340,7 +340,7 @@
       "kind": "OperatorRef",
       "name": "Count",
       "version": "0.11.1",
-      "operatorId": "1",
+      "operatorId": "5",
       "operatorKind": "ROperator",
       "propertyValues": [],
       "url": {
@@ -1299,7 +1299,7 @@
     "topLeft": {
      "kind": "Point",
      "x": 178.36084533691405,
-     "y": -31.5
+     "y": -32.5
     }
    },
    "state": {
@@ -1317,7 +1317,7 @@
      "id": "rename_93bec265-3e65-4b49-af6b-e616dc9472e6",
      "relation": {
       "kind": "InMemoryRelation",
-      "id": "ec4682b2-7659-45f1-a68e-a11ea3067991",
+      "id": "44566b32-ce23-4229-aa4b-6a9b5e258445",
       "inMemoryTable": {
        "kind": "Table",
        "nRows": 1,
@@ -1414,7 +1414,7 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "34bd1f668997b2706763fe4289c94e6c",
+    "taskId": "e53240c9b786166f00c626e28ffc47b2",
     "taskState": {
      "kind": "DoneState"
     }
@@ -1833,7 +1833,7 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "34bd1f668997b2706763fe4289c767af",
+    "taskId": "e53240c9b786166f00c626e28ffc4f9d",
     "taskState": {
      "kind": "DoneState"
     }
@@ -2080,7 +2080,7 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 429.58876586914084,
+     "x": 428.58876586914084,
      "y": 435.5
     }
    },
@@ -2239,7 +2239,7 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "34bd1f668997b2706763fe4289d01bda",
+    "taskId": "e53240c9b786166f00c626e28ffc517b",
     "taskState": {
      "kind": "DoneState"
     }
@@ -2550,7 +2550,7 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "34bd1f668997b2706763fe4289c7d6d3",
+    "taskId": "e53240c9b786166f00c626e28ffc59aa",
     "taskState": {
      "kind": "DoneState"
     }
@@ -2800,7 +2800,7 @@
       "kind": "OperatorRef",
       "name": "UMAP",
       "version": "1.2.3",
-      "operatorId": "3",
+      "operatorId": "2",
       "operatorKind": "ROperator",
       "propertyValues": [
        {
@@ -3041,7 +3041,7 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "34bd1f668997b2706763fe42896890a7",
+    "taskId": "e53240c9b786166f00c626e28ffc6933",
     "taskState": {
      "kind": "DoneState"
     }
@@ -3200,7 +3200,7 @@
       "kind": "OperatorRef",
       "name": "FCS",
       "version": "2.3.0",
-      "operatorId": "7",
+      "operatorId": "4",
       "operatorKind": "ROperator",
       "propertyValues": [
        {
@@ -3373,7 +3373,7 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "34bd1f668997b2706763fe4289c699cc",
+    "taskId": "e53240c9b786166f00c626e28ffc702e",
     "taskState": {
      "kind": "DoneState"
     }
@@ -3553,7 +3553,7 @@
       "kind": "OperatorRef",
       "name": "Normalise CyTOF",
       "version": "0.2.3",
-      "operatorId": "9",
+      "operatorId": "7",
       "operatorKind": "DockerOperator",
       "propertyValues": [
        {
@@ -3837,7 +3837,7 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "34bd1f668997b2706763fe4289c77050",
+    "taskId": "e53240c9b786166f00c626e28ffc7a28",
     "taskState": {
      "kind": "DoneState"
     }
@@ -3847,7 +3847,21 @@
     "kind": "Crosstab",
     "axis": {
      "kind": "XYAxisList",
-     "rectangleSelections": [],
+     "rectangleSelections": [
+      {
+       "kind": "Rectangle",
+       "extent": {
+        "kind": "Point",
+        "x": 0.0,
+        "y": 0.0
+       },
+       "topLeft": {
+        "kind": "Point",
+        "x": 0.0,
+        "y": 39.0
+       }
+      }
+     ],
      "xyAxis": [
       {
        "kind": "XYAxis",
@@ -4121,21 +4135,7 @@
        }
       }
      ],
-     "rectangleSelections": [
-      {
-       "kind": "Rectangle",
-       "extent": {
-        "kind": "Point",
-        "x": 0.0,
-        "y": 0.0
-       },
-       "topLeft": {
-        "kind": "Point",
-        "x": 0.0,
-        "y": 43.0
-       }
-      }
-     ],
+     "rectangleSelections": [],
      "nRows": 60
     },
     "taskId": ""
@@ -4290,7 +4290,7 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "34bd1f668997b2706763fe4289ca0960",
+    "taskId": "e53240c9b786166f00c626e28ffc85a7",
     "taskState": {
      "kind": "DoneState"
     }
@@ -4670,7 +4670,7 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "34bd1f668997b2706763fe4289f4d6fe",
+    "taskId": "e53240c9b786166f00c626e28ffc8c0e",
     "taskState": {
      "kind": "DoneState"
     }
@@ -4934,7 +4934,7 @@
       "kind": "OperatorRef",
       "name": "Plot",
       "version": "0.1.6",
-      "operatorId": "5",
+      "operatorId": "3",
       "operatorKind": "ROperator",
       "propertyValues": [
        {
@@ -5185,7 +5185,7 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "dd147b433bdc122cb2f56825ae2ef6fe",
+    "taskId": "e53240c9b786166f00c626e28ffc993b",
     "taskState": {
      "kind": "DoneState"
     }
@@ -5370,7 +5370,7 @@
       "kind": "OperatorRef",
       "name": "Plot",
       "version": "0.1.6",
-      "operatorId": "5",
+      "operatorId": "3",
       "operatorKind": "ROperator",
       "propertyValues": [
        {
@@ -5621,7 +5621,7 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "34bd1f668997b2706763fe4289f7d0a9",
+    "taskId": "e53240c9b786166f00c626e28ffca1c8",
     "taskState": {
      "kind": "DoneState"
     }
@@ -5745,7 +5745,7 @@
     },
     "columnTable": {
      "kind": "CrosstabTable",
-     "cellSize": 204.0,
+     "cellSize": 682.0,
      "offset": 0,
      "graphicalFactors": [
       {
@@ -5805,7 +5805,7 @@
       "kind": "OperatorRef",
       "name": "Plot",
       "version": "0.1.6",
-      "operatorId": "5",
+      "operatorId": "3",
       "operatorKind": "ROperator",
       "propertyValues": [
        {
@@ -6056,7 +6056,7 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "dd147b433bdc122cb2f56825ae1ac3d5",
+    "taskId": "e53240c9b786166f00c626e28ffcabd5",
     "taskState": {
      "kind": "DoneState"
     }
@@ -6235,7 +6235,7 @@
       "kind": "OperatorRef",
       "name": "Export Table",
       "version": "0.1.0",
-      "operatorId": "4",
+      "operatorId": "1",
       "operatorKind": "ROperator",
       "propertyValues": [
        {
@@ -6378,7 +6378,7 @@
  ],
  "offset": {
   "kind": "Point",
-  "x": 199.0,
-  "y": -336.0
+  "x": 248.0,
+  "y": -12.0
  }
 }

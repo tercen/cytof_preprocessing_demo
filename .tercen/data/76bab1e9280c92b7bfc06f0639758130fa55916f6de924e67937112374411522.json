@@ -432,7 +432,7 @@
     "kind": "OperatorRef",
     "name": "Export Table",
     "version": "0.1.0",
-    "operatorId": "4",
+    "operatorId": "1",
     "operatorKind": "ROperator",
     "propertyValues": [
      {

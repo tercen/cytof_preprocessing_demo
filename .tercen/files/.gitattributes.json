@@ -1,10 +1,10 @@
 {
  "kind": "FileDocument",
- "id": "sample annotation.csv",
+ "id": ".gitattributes",
  "isDeleted": false,
  "rev": "",
  "description": "",
- "name": "sample annotation.csv",
+ "name": ".gitattributes",
  "acl": {
   "kind": "Acl",
   "owner": "",
@@ -20,18 +20,7 @@
  },
  "urls": [],
  "tags": [],
- "meta": [
-  {
-   "kind": "Pair",
-   "key": "hidden",
-   "value": "true"
-  },
-  {
-   "kind": "Pair",
-   "key": "temp.file",
-   "value": "true"
-  }
- ],
+ "meta": [],
  "url": {
   "kind": "Url",
   "uri": ""
@@ -40,7 +29,7 @@
  "isPublic": false,
  "projectId": "",
  "folderId": "",
- "dataUri": "a4/b1/a4b1fdd0-eb31-4f18-b99a-56adbbf0deea",
+ "dataUri": "e5/a5/e5a592f6a3b39c15c796e34e47c5a5cb7fb1e3f9445cd11c80ba93ccc6b0f821",
  "metadata": {
   "kind": "FileMetadata",
   "contentType": "",
@@ -49,5 +38,5 @@
   "contentLanguage": "",
   "md5Hash": ""
  },
- "size": 198
+ "size": 133
 }
