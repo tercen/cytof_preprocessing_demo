@@ -3,7 +3,7 @@
  "id": "",
  "isDeleted": false,
  "rev": "",
- "description": "",
+ "description": "https://github.com/tercen/Demo-CyTOF-Preprocessing.git",
  "name": "",
  "acl": {
   "kind": "Acl",
@@ -23,8 +23,8 @@
  "meta": [],
  "url": {
   "kind": "Url",
-  "uri": ""
+  "uri": "https://github.com/tercen/Demo-CyTOF-Preprocessing.git"
  },
- "version": "",
+ "version": "a58c87353787e083e78e270e5088cad6fe8cb235",
  "isPublic": false
 }
