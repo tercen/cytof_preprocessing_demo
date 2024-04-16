@@ -1,10 +1,10 @@
 {
- "kind": "ComputedTableSchema",
- "id": "22c215995ee1f6d31d1a75577c42beadbd4ec9918ce1efd155df66b35b24e650",
+ "kind": "TableSchema",
+ "id": "9b93cbbdeed8d720381a2c7e9effd1abeab9984440cd49ebb1fb869fe0dc6594",
  "isDeleted": false,
  "rev": "",
  "description": "",
- "name": "Measurements",
+ "name": "8eac066a-aa2a-4aa9-b7ae-02db7db06249",
  "acl": {
   "kind": "Acl",
   "owner": "",
@@ -23,8 +23,13 @@
  "meta": [
   {
    "kind": "Pair",
+   "key": "hidden",
+   "value": "true"
+  },
+  {
+   "kind": "Pair",
    "key": "SHA256",
-   "value": "22c215995ee1f6d31d1a75577c42beadbd4ec9918ce1efd155df66b35b24e650"
+   "value": "9b93cbbdeed8d720381a2c7e9effd1abeab9984440cd49ebb1fb869fe0dc6594"
   }
  ],
  "url": {
@@ -39,7 +44,7 @@
  "columns": [
   {
    "kind": "ColumnSchema",
-   "id": "424d0b74-2e49-4861-8251-883d71686be8",
+   "id": "9de9d26c-baeb-49a4-88b0-a7995817bdc4",
    "name": "Time",
    "type": "double",
    "nRows": 0,
@@ -54,7 +59,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "de28b9dc-937d-40dd-b324-5ccdb31cf886",
+   "id": "d2b40285-52b0-410c-bf70-1b735dafdc78",
    "name": "Event_length",
    "type": "double",
    "nRows": 0,
@@ -69,7 +74,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "09cb4c8a-d6d9-42f5-8d7d-59e0ee9abb49",
+   "id": "0c9b1cdf-f572-49f5-9e9f-8a06330c1f16",
    "name": "Y89Di",
    "type": "double",
    "nRows": 0,
@@ -84,7 +89,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "24e69d60-1b43-4aeb-9bc5-df12218fe3db",
+   "id": "ddc7307d-5d7f-4011-82fe-8d1d7755abf7",
    "name": "Pd102Di",
    "type": "double",
    "nRows": 0,
@@ -99,7 +104,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "9a1758bb-61eb-49fd-aea1-c19fc7363a9a",
+   "id": "7c549141-586e-4819-a877-b0e52f9a141d",
    "name": "Rh103Di",
    "type": "double",
    "nRows": 0,
@@ -114,7 +119,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "696ff243-238c-4a18-af6a-50634cd7b0fd",
+   "id": "371132ff-8ba5-4fe8-a8ab-18c047ea60c6",
    "name": "Pd104Di",
    "type": "double",
    "nRows": 0,
@@ -129,7 +134,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "0d636ac4-25a3-4e31-bcb9-bbd59ac89057",
+   "id": "62a9c8f4-56d6-40ea-987d-1f37f24698a4",
    "name": "Pd105Di",
    "type": "double",
    "nRows": 0,
@@ -144,7 +149,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "a0bfbbf9-0141-4dd2-9d3b-e6eb15a482b2",
+   "id": "9df8efd1-cb42-4bd9-a0c4-20a72597c6a2",
    "name": "Pd106Di",
    "type": "double",
    "nRows": 0,
@@ -159,7 +164,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "3e480eb0-fc65-4b16-a753-de00e28bfb50",
+   "id": "79f6b49b-82f0-46b6-aa02-152573a77d0f",
    "name": "Pd108Di",
    "type": "double",
    "nRows": 0,
@@ -174,7 +179,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "058f79e6-3444-4129-b51e-d2f75068c865",
+   "id": "702bcffb-f654-421d-82fb-bd3956496791",
    "name": "Pd110Di",
    "type": "double",
    "nRows": 0,
@@ -189,7 +194,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "764a7057-3fbc-4fda-99d2-a21f956bdad4",
+   "id": "ca0b6163-412c-499f-a04f-a64ab7e16ff1",
    "name": "In113Di",
    "type": "double",
    "nRows": 0,
@@ -204,7 +209,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "b740ca52-a8a8-4d90-83cd-3053cc88ea30",
+   "id": "487abe1e-894f-4a0c-b3dc-0301a5d9d482",
    "name": "In115Di",
    "type": "double",
    "nRows": 0,
@@ -219,7 +224,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "0b262c53-c5ad-456c-b188-10d394ad95be",
+   "id": "3b110b98-b391-4a72-af4d-e2629e74c058",
    "name": "Sn120Di",
    "type": "double",
    "nRows": 0,
@@ -234,7 +239,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "d1a7d4a0-3dcf-4894-8c2b-bc083298a0bc",
+   "id": "56815bb5-01de-46c5-bccc-3c44ae1026af",
    "name": "I127Di",
    "type": "double",
    "nRows": 0,
@@ -249,7 +254,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "ad035ef1-e4ee-4a39-80dc-5d7857bb81ac",
+   "id": "8ca93d68-42a3-4072-b485-755dbc5c9e97",
    "name": "Xe131Di",
    "type": "double",
    "nRows": 0,
@@ -264,7 +269,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "6ffa44f1-43ad-4c0f-b1ab-21eb36ad335a",
+   "id": "2d8af1ee-bc32-4fb8-a070-6dc5bdaa7433",
    "name": "Cs133Di",
    "type": "double",
    "nRows": 0,
@@ -279,7 +284,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "b47efebf-f612-4c85-924d-8c4df522d3b8",
+   "id": "989922cd-2ee7-4195-b6ca-accb92ddc64c",
    "name": "Ba138Di",
    "type": "double",
    "nRows": 0,
@@ -294,7 +299,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "5e301b08-5dd4-452d-93df-0a4c056108f9",
+   "id": "08286a46-0200-48c8-b63d-20dd0e0f2b73",
    "name": "La139Di",
    "type": "double",
    "nRows": 0,
@@ -309,7 +314,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "e4435732-1456-4bbb-a487-c986b4afa938",
+   "id": "4e2a2774-b989-4b13-92dd-075d3d271d35",
    "name": "Ce140Di",
    "type": "double",
    "nRows": 0,
@@ -324,7 +329,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "c5f6dd5f-2789-44dc-a264-26663d5eaa27",
+   "id": "f8f3157c-4681-432a-91f2-c35d55c35a5d",
    "name": "Pr141Di",
    "type": "double",
    "nRows": 0,
@@ -339,7 +344,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "3f763f28-e479-4219-a542-14a051326c0d",
+   "id": "edd482d8-ed2a-45e7-97f5-cd5adf0d2e66",
    "name": "Nd142Di",
    "type": "double",
    "nRows": 0,
@@ -354,7 +359,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "5b4e3637-6a3b-4710-9e94-b4541e079bb5",
+   "id": "afa20ec2-5138-4530-912c-e54c7a00e61e",
    "name": "Nd143Di",
    "type": "double",
    "nRows": 0,
@@ -369,7 +374,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "455ea3de-d900-4885-a2bf-f2653dbbfa7c",
+   "id": "a04f5033-c3d5-4f7f-b2cd-ca2c9f8ed66c",
    "name": "Nd144Di",
    "type": "double",
    "nRows": 0,
@@ -384,7 +389,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "804c907c-2b72-4a74-b299-6feaac7fa26e",
+   "id": "ee869b98-5810-4b70-8578-68af74de6d6c",
    "name": "Nd145Di",
    "type": "double",
    "nRows": 0,
@@ -399,7 +404,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "75784053-2831-4f65-9ac3-a428957e33be",
+   "id": "ce1b3c94-3dcc-448a-8642-002d2750cbcd",
    "name": "Nd146Di",
    "type": "double",
    "nRows": 0,
@@ -414,7 +419,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "3e088dc3-2303-43b3-bc57-9086f785a7e2",
+   "id": "d8255fcc-06e6-4975-badb-3026a1230294",
    "name": "Sm147Di",
    "type": "double",
    "nRows": 0,
@@ -429,7 +434,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "c80139d6-66bc-40f4-8707-d29dcc112d9b",
+   "id": "96827496-0597-4fad-836e-9f5c29a75f82",
    "name": "Nd148Di",
    "type": "double",
    "nRows": 0,
@@ -444,7 +449,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "5689047d-8eae-4073-b8ef-22dd6a561f06",
+   "id": "4db75196-38e3-484f-aeab-db61e28e9601",
    "name": "Sm149Di",
    "type": "double",
    "nRows": 0,
@@ -459,7 +464,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "fa94d4e9-d0f6-4d8a-a1f1-c8ffe4a0875f",
+   "id": "9da44d27-5f89-4378-b502-e9e8a8782e7a",
    "name": "Nd150Di",
    "type": "double",
    "nRows": 0,
@@ -474,7 +479,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "4500335c-1db3-4330-8a6f-ec9c8134f9c5",
+   "id": "f4294bce-8ef2-4853-ae7d-4dfe5c27087f",
    "name": "Eu151Di",
    "type": "double",
    "nRows": 0,
@@ -489,7 +494,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "a24b4457-4757-4b60-ab96-c628e328868c",
+   "id": "ddf4c45c-3540-4bf1-ab7c-cba7b3ef2303",
    "name": "Sm152Di",
    "type": "double",
    "nRows": 0,
@@ -504,7 +509,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "e63ebad8-9f98-45d0-987b-987aa0f01690",
+   "id": "4c4b709d-c040-4d67-8876-a2d4751947a4",
    "name": "Eu153Di",
    "type": "double",
    "nRows": 0,
@@ -519,7 +524,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "933bb62c-45f0-4aad-8965-901941c8bf3e",
+   "id": "4be70aee-a283-44e9-8015-452a01fd9134",
    "name": "Sm154Di",
    "type": "double",
    "nRows": 0,
@@ -534,7 +539,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "71adf24f-6c1e-4c8b-b109-c3cfd9939988",
+   "id": "d045a16d-37d1-4a1f-849b-844a2b7d8db1",
    "name": "Gd155Di",
    "type": "double",
    "nRows": 0,
@@ -549,7 +554,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "4b3db419-528b-40f0-be76-b84d30682e73",
+   "id": "864c408a-5752-41d0-923a-4a8fd2056554",
    "name": "Gd156Di",
    "type": "double",
    "nRows": 0,
@@ -564,7 +569,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "2820ca72-0db7-4d66-9eea-71bc198c1884",
+   "id": "21e43bf0-b501-4295-8dcd-cff05e72baee",
    "name": "Gd157Di",
    "type": "double",
    "nRows": 0,
@@ -579,7 +584,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "5ed80649-c346-4502-9d57-d8dd5ae2c08c",
+   "id": "d404ca50-092c-4dcb-be5a-9cd8504a0af9",
    "name": "Gd158Di",
    "type": "double",
    "nRows": 0,
@@ -594,7 +599,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "8dfdcaa0-71d8-4e7f-9017-1aaa89124c45",
+   "id": "c0860e70-3c90-48ee-90c3-eb5701dc2d3e",
    "name": "Tb159Di",
    "type": "double",
    "nRows": 0,
@@ -609,7 +614,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "5bd1f307-1094-4f9b-9c8d-80cad82bac12",
+   "id": "101f67c9-4f17-409b-aae1-e4b1f8b2e27c",
    "name": "Gd160Di",
    "type": "double",
    "nRows": 0,
@@ -624,7 +629,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "1ee729dd-f4d2-4630-a4b9-83c015aa2fb3",
+   "id": "10fc9424-8fd1-4321-b00e-2b2ef70fe114",
    "name": "Dy161Di",
    "type": "double",
    "nRows": 0,
@@ -639,7 +644,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "76528aa6-a516-48bd-94f4-a5bb6c2d32eb",
+   "id": "8a55fe6d-cd33-4aff-b832-e904300f9024",
    "name": "Dy162Di",
    "type": "double",
    "nRows": 0,
@@ -654,7 +659,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "6d6905f2-b617-45b8-9ed6-902457e35ab0",
+   "id": "0b40e4ea-d764-483d-8940-c438bb6e2edf",
    "name": "Dy163Di",
    "type": "double",
    "nRows": 0,
@@ -669,7 +674,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "d326a3b6-8e09-4c0a-8ee3-5e368d99cb34",
+   "id": "8e8e4f79-2895-4baf-9a17-39f50db19daf",
    "name": "Dy164Di",
    "type": "double",
    "nRows": 0,
@@ -684,7 +689,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "bd087001-ca42-49a9-92d9-7e02d5306f23",
+   "id": "8025c7e1-a910-47df-8ba8-6aab38fd6220",
    "name": "Ho165Di",
    "type": "double",
    "nRows": 0,
@@ -699,7 +704,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "650d581d-1f03-4fa7-ac3e-fe4ca2e5d07c",
+   "id": "804dbbff-170d-4b6b-a60a-7cafec09c025",
    "name": "Er166Di",
    "type": "double",
    "nRows": 0,
@@ -714,7 +719,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "1b8b9179-8d5c-4ef7-a442-f2dc2b427769",
+   "id": "be454269-f858-46d3-b8dc-12d5c63569b6",
    "name": "Er167Di",
    "type": "double",
    "nRows": 0,
@@ -729,7 +734,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "7eb5356c-967e-4c25-944c-1fe307f4a9e8",
+   "id": "8487095c-daad-4bbb-b43b-cf665a1285d3",
    "name": "Er168Di",
    "type": "double",
    "nRows": 0,
@@ -744,7 +749,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "85fc8bcc-0fdb-4287-9ff2-ae7e929578d5",
+   "id": "6e66bcbc-c819-4eeb-a3f5-3e680d764663",
    "name": "Tm169Di",
    "type": "double",
    "nRows": 0,
@@ -759,7 +764,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "b4b63346-6fb9-4c53-8205-ca32227e6e38",
+   "id": "c55688c1-93be-4a2f-b2b4-3dd1ffcae1f2",
    "name": "Er170Di",
    "type": "double",
    "nRows": 0,
@@ -774,7 +779,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "9995df99-c15c-4e39-ab67-c17ad515663d",
+   "id": "c0ba960a-be44-4ea2-abc0-481fb29f8417",
    "name": "Yb171Di",
    "type": "double",
    "nRows": 0,
@@ -789,7 +794,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "48da517d-4ddb-4aec-a5f5-ee3e5829b85a",
+   "id": "8a125d90-d929-4da2-a00e-b01eba7b84e7",
    "name": "Yb172Di",
    "type": "double",
    "nRows": 0,
@@ -804,7 +809,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "52adb084-9313-44dc-8071-6bf1afcef5d2",
+   "id": "4b27b393-2ad1-4795-bc54-72c3576b7566",
    "name": "Yb173Di",
    "type": "double",
    "nRows": 0,
@@ -819,7 +824,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "b6b0e480-af9d-4cfe-97dc-88f5b8b4ef66",
+   "id": "7f71250b-3340-40bf-8180-eb9e1b07fba3",
    "name": "Yb174Di",
    "type": "double",
    "nRows": 0,
@@ -834,7 +839,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "49c22a8a-c74d-4af6-88dd-75bcb7dcd199",
+   "id": "bc15bc0b-7011-42ac-81da-e0a23babc074",
    "name": "Lu175Di",
    "type": "double",
    "nRows": 0,
@@ -849,7 +854,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "389cc307-047f-4801-ab47-9ff424e2bfb0",
+   "id": "048d004b-3049-44d8-9c61-d552fc830e51",
    "name": "Yb176Di",
    "type": "double",
    "nRows": 0,
@@ -864,7 +869,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "78f241ff-7fd3-46a2-a3b1-551248123889",
+   "id": "c44fc2c6-55fe-4905-bd0d-1e61a75183d7",
    "name": "BCKG190Di",
    "type": "double",
    "nRows": 0,
@@ -879,7 +884,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "e582ee7c-63ce-486b-9291-e1cdfccd5b76",
+   "id": "c7eca6c9-f93e-4126-a89f-3e14271abaef",
    "name": "Ir191Di",
    "type": "double",
    "nRows": 0,
@@ -894,7 +899,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "c40e3304-f77a-46c6-9a8e-bc57d4ac958e",
+   "id": "4ab53a5b-96b9-4920-8acc-ecc13deb250f",
    "name": "Ir193Di",
    "type": "double",
    "nRows": 0,
@@ -909,7 +914,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "dd42ad50-8e31-4ff8-b5d1-c8466ed9d2ec",
+   "id": "1be87846-47a7-434b-9365-10799bff7745",
    "name": "Pt194Di",
    "type": "double",
    "nRows": 0,
@@ -924,7 +929,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "ff1c2b68-9fe9-4ae2-afe7-6bfc020a4223",
+   "id": "8ac7fb99-ad64-41a4-98fa-c3ce03cfe60b",
    "name": "Pt195Di",
    "type": "double",
    "nRows": 0,
@@ -939,7 +944,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "9bb5696f-d04f-4874-8008-696c978a0c18",
+   "id": "965301fe-6082-4f0a-8834-8773ea18cb9a",
    "name": "Pt198Di",
    "type": "double",
    "nRows": 0,
@@ -954,7 +959,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "f6f75af3-984f-401c-ac06-3f72f04da91f",
+   "id": "3f1a9239-0e63-48f5-b52e-251e8a54b67a",
    "name": "Pb208Di",
    "type": "double",
    "nRows": 0,
@@ -969,7 +974,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "a131d326-bffd-4f3e-a7b6-75d92286cfb5",
+   "id": "645fb0b2-e0b4-4476-a55b-527ad58b8b69",
    "name": "Center",
    "type": "double",
    "nRows": 0,
@@ -984,7 +989,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "08314676-57ca-49f6-9743-d514b69ad796",
+   "id": "50379477-875e-478d-ae56-d2802b54add9",
    "name": "Offset",
    "type": "double",
    "nRows": 0,
@@ -999,7 +1004,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "8111a064-fafd-4a90-bb3d-38ac8585befa",
+   "id": "637e7e9e-107f-4419-905c-b58c9a5ff58e",
    "name": "Width",
    "type": "double",
    "nRows": 0,
@@ -1014,7 +1019,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "20604562-bdd2-4182-b54f-0e90a020b2ee",
+   "id": "b2ba0c57-129d-44fc-b362-9a19621795b8",
    "name": "Residual",
    "type": "double",
    "nRows": 0,
@@ -1029,7 +1034,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "5b43a567-e1fe-45c5-af70-3ab6a93f914c",
+   "id": "1cefbde1-1dd8-4bbb-a217-046d3bbe8f3c",
    "name": "fileId",
    "type": "int32",
    "nRows": 0,
@@ -1044,7 +1049,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "bd0fb27a-e739-484f-b63f-f57d1702e7dc",
+   "id": "15fe76fa-48f2-481b-8e4f-bebe4cb3c96c",
    "name": "event_id",
    "type": "int32",
    "nRows": 0,
@@ -1058,169 +1063,9 @@
    }
   }
  ],
- "dataDirectory": "data/22/c2/22c215995ee1f6d31d1a75577c42beadbd4ec9918ce1efd155df66b35b24e650",
+ "dataDirectory": "data/9b/93/9b93cbbdeed8d720381a2c7e9effd1abeab9984440cd49ebb1fb869fe0dc6594",
  "relation": {
   "kind": "Relation",
-  "id": "af45e90c-6a94-4a35-897a-0860503c1636"
- },
- "query": {
-  "kind": "CubeQuery",
-  "relation": {
-   "kind": "RenameRelation",
-   "id": "42805a0a-de50-4b5f-9854-253cedfb453a",
-   "relation": {
-    "kind": "InMemoryRelation",
-    "id": "91ed7065-30e9-4726-9919-432cc2780ef6",
-    "inMemoryTable": {
-     "kind": "Table",
-     "nRows": 1,
-     "properties": {
-      "kind": "TableProperties",
-      "name": "",
-      "sortOrder": [],
-      "ascending": true
-     },
-     "columns": [
-      {
-       "kind": "Column",
-       "id": "documentId",
-       "name": "documentId",
-       "type": "string",
-       "nRows": 1,
-       "size": -1,
-       "metaData": {
-        "kind": "ColumnSchemaMetaData",
-        "sort": [],
-        "ascending": true,
-        "quartiles": [],
-        "properties": []
-       },
-       "values": [
-        "e1643060-738d-4107-9a2c-831a055d15e7"
-       ]
-      },
-      {
-       "kind": "Column",
-       "id": ".documentId",
-       "name": ".documentId",
-       "type": "string",
-       "nRows": 1,
-       "size": -1,
-       "metaData": {
-        "kind": "ColumnSchemaMetaData",
-        "sort": [],
-        "ascending": true,
-        "quartiles": [],
-        "properties": []
-       },
-       "values": [
-        "data/FlowRepository_FR-FCM-Z4S9_files.zip"
-       ]
-      }
-     ]
-    }
-   },
-   "inNames": [
-    "documentId",
-    ".documentId"
-   ],
-   "outNames": [
-    "documentId",
-    ".documentId"
-   ]
-  },
-  "colColumns": [
-   {
-    "kind": "Factor",
-    "name": "documentId",
-    "type": "string"
-   }
-  ],
-  "rowColumns": [],
-  "axisQueries": [
-   {
-    "kind": "CubeAxisQuery",
-    "pointSize": 4,
-    "chartType": "point",
-    "yAxis": {
-     "kind": "Factor",
-     "name": "",
-     "type": "string"
-    },
-    "yAxisSettings": {
-     "kind": "AxisSettings",
-     "meta": []
-    },
-    "xAxis": {
-     "kind": "Factor",
-     "name": "",
-     "type": "string"
-    },
-    "xAxisSettings": {
-     "kind": "AxisSettings",
-     "meta": []
-    },
-    "errors": [],
-    "labels": [],
-    "colors": [],
-    "preprocessors": []
-   }
-  ],
-  "filters": {
-   "kind": "Filters",
-   "removeNaN": true,
-   "namedFilters": []
-  },
-  "operatorSettings": {
-   "kind": "OperatorSettings",
-   "namespace": "ds6",
-   "operatorRef": {
-    "kind": "OperatorRef",
-    "name": "FCS",
-    "version": "2.3.0",
-    "operatorId": "7",
-    "operatorKind": "ROperator",
-    "propertyValues": [
-     {
-      "kind": "PropertyValue",
-      "name": "which.lines",
-      "value": "-1"
-     },
-     {
-      "kind": "PropertyValue",
-      "name": "gather_channels",
-      "value": "false"
-     },
-     {
-      "kind": "PropertyValue",
-      "name": "ungather_pattern",
-      "value": "time|event"
-     },
-     {
-      "kind": "PropertyValue",
-      "name": "truncate_max_range",
-      "value": "true"
-     }
-    ],
-    "url": {
-     "kind": "Url",
-     "uri": "https://github.com/tercen/read_fcs_operator"
-    },
-    "operatorSpec": {
-     "kind": "OperatorSpec",
-     "ontologyUri": "",
-     "ontologyVersion": "",
-     "inputSpecs": [],
-     "outputSpecs": []
-    }
-   },
-   "environment": [],
-   "operatorModel": {
-    "kind": "OperatorModel"
-   }
-  },
-  "qtHash": "",
-  "columnHash": "",
-  "rowHash": ""
+  "id": "81212bd3-af53-4c20-9b54-03fb6859c39a"
  }
 }

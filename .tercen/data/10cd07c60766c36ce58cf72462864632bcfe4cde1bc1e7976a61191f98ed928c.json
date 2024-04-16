@@ -1,10 +1,10 @@
 {
  "kind": "ComputedTableSchema",
- "id": "1cc56091ae17be9b5bf62733aa70fed047023ab28cc1cf5ecfbebc125a567e78",
+ "id": "10cd07c60766c36ce58cf72462864632bcfe4cde1bc1e7976a61191f98ed928c",
  "isDeleted": false,
  "rev": "",
  "description": "",
- "name": "06f5e4f2-7bf4-4327-993d-db5730f8b302",
+ "name": "5ac0d3bb-5109-4a9d-ae33-6cbc2cbbc920",
  "acl": {
   "kind": "Acl",
   "owner": "",
@@ -24,7 +24,7 @@
   {
    "kind": "Pair",
    "key": "SHA256",
-   "value": "1cc56091ae17be9b5bf62733aa70fed047023ab28cc1cf5ecfbebc125a567e78"
+   "value": "10cd07c60766c36ce58cf72462864632bcfe4cde1bc1e7976a61191f98ed928c"
   }
  ],
  "url": {
@@ -39,7 +39,7 @@
  "columns": [
   {
    "kind": "ColumnSchema",
-   "id": "35687fe1-1c11-4d8e-ad9a-68f4b6e939a3",
+   "id": "e2f92ca6-20f8-4009-9725-a6a5e1ca5024",
    "name": "filename",
    "type": "string",
    "nRows": 0,
@@ -54,7 +54,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "b800a934-72c7-4781-ad9f-203d8456e3d2",
+   "id": "8086256a-0bbc-41ca-9115-7489b7136da4",
    "name": "mimetype",
    "type": "string",
    "nRows": 0,
@@ -69,7 +69,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "35c66c66-9b73-4e7c-a382-5dbf4b47af1d",
+   "id": "354fdba5-a220-44ee-b788-530163703209",
    "name": ".content",
    "type": "string",
    "nRows": 0,
@@ -83,19 +83,19 @@
    }
   }
  ],
- "dataDirectory": "data/1c/c5/1cc56091ae17be9b5bf62733aa70fed047023ab28cc1cf5ecfbebc125a567e78",
+ "dataDirectory": "data/10/cd/10cd07c60766c36ce58cf72462864632bcfe4cde1bc1e7976a61191f98ed928c",
  "relation": {
   "kind": "Relation",
-  "id": "25a82abb-7305-48e7-b68b-75baf39ef71a"
+  "id": "2849cdda-1c32-4321-9dfd-72f89ef7cf33"
  },
  "query": {
   "kind": "CubeQuery",
   "relation": {
    "kind": "RenameRelation",
-   "id": "f4f8b6aa-a0e8-4556-85af-1a7e58c41604",
+   "id": "dc0cffe8-2ebd-438a-a12c-d512be4f0f47",
    "relation": {
     "kind": "CompositeRelation",
-    "id": "0a5538dd-fb13-4661-8900-33f8026e8e98",
+    "id": "cb619fe2-764e-4f86-857a-2326e7de96d3",
     "joinOperators": [
      {
       "kind": "JoinOperator",
@@ -214,13 +214,13 @@
     "kind": "OperatorRef",
     "name": "Plot",
     "version": "0.1.6",
-    "operatorId": "3",
+    "operatorId": "5",
     "operatorKind": "ROperator",
     "propertyValues": [
      {
       "kind": "PropertyValue",
       "name": "plot_type",
-      "value": "png"
+      "value": "svg"
      },
      {
       "kind": "PropertyValue",

@@ -80,7 +80,7 @@
    "id": "42805a0a-de50-4b5f-9854-253cedfb453a",
    "relation": {
     "kind": "InMemoryRelation",
-    "id": "334fd6f9-f649-47e1-b1ac-3ea5de51c430",
+    "id": "d908d241-d278-43b9-bf9a-8316f5a538b8",
     "inMemoryTable": {
      "kind": "Table",
      "nRows": 1,
@@ -124,7 +124,7 @@
         "properties": []
        },
        "values": [
-        "FlowRepository_FR-FCM-Z4S9_files.zip"
+        "data/FlowRepository_FR-FCM-Z4S9_files.zip"
        ]
       }
      ]
@@ -188,7 +188,7 @@
     "kind": "OperatorRef",
     "name": "FCS",
     "version": "2.3.0",
-    "operatorId": "4",
+    "operatorId": "7",
     "operatorKind": "ROperator",
     "propertyValues": [
      {

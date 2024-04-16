@@ -3,7 +3,7 @@
  "id": "",
  "isDeleted": false,
  "rev": "",
- "description": "https://github.com/tercen/Demo-CyTOF-Preprocessing.git",
+ "description": "A demo workflow to preprocess CyTOF data and perform debarcoding using scyan.",
  "name": "",
  "acl": {
   "kind": "Acl",
@@ -25,6 +25,6 @@
   "kind": "Url",
   "uri": "https://github.com/tercen/Demo-CyTOF-Preprocessing.git"
  },
- "version": "496f191e8e5fbf9ebe34da39bba641afd7ad4d6c",
+ "version": "3249baaecbda72a1790fca5394183c4b286fa605",
  "isPublic": false
 }

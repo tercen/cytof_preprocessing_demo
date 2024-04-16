@@ -240,7 +240,7 @@
     "kind": "OperatorRef",
     "name": "Normalise CyTOF",
     "version": "0.2.3",
-    "operatorId": "7",
+    "operatorId": "9",
     "operatorKind": "DockerOperator",
     "propertyValues": [
      {
