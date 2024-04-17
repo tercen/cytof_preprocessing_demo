@@ -1323,7 +1323,7 @@
      "id": "rename_93bec265-3e65-4b49-af6b-e616dc9472e6",
      "relation": {
       "kind": "InMemoryRelation",
-      "id": "9d1d0af8-63d7-4298-ace3-84092b7df179",
+      "id": "068f76b4-20aa-40cc-a02a-e671b5f252ca",
       "inMemoryTable": {
        "kind": "Table",
        "nRows": 1,
